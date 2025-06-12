@@ -343,8 +343,8 @@ val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False, colla
 #pred_counter = Counter(all_preds)
 #true_counter = Counter(all_true)
 
-#print("🔍 Distribution des prédictions :", pred_counter)
-#print("✅ Distribution réelle des labels :", true_counter)
+#print("Distribution des prédictions :", pred_counter)
+#print("Distribution réelle des labels :", true_counter)
 #from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 #cm = confusion_matrix(all_true, all_preds)
