@@ -172,12 +172,12 @@ def augment_trajectory(sequence, gaussien_std=0.1, scale_range=(0.9, 1.1)):
     Applique une augmentation de données sur une séquence de trajectoire 2D.
 
     Augmentations utilisées :
-        - Bruit gaussien (jitter) sur les coordonnées x et y
+        - Bruit gaussien sur les coordonnées x et y
         - Mise à l'échelle (scaling) aléatoire uniforme
 
     Args:
         sequence (Tensor): séquence d'entrée
-        jitter_std (float): écart-type du bruit gaussien ajouté à chaque point
+        gaussien_std (float): écart-type du bruit gaussien ajouté à chaque point
         scale_range (tuple): intervalle (min, max) pour le facteur d'échelle aléatoire
 
     Returns:
