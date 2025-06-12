@@ -379,7 +379,7 @@ train_loss_history = []
 val_loss_history = []
 
 # Training loop
-print("🚀 Training started...")
+print("Training started...")
 best_val_loss = float('inf')
 best_model_path = "model/best_LSTM_FCN8.pth"
 
@@ -413,7 +413,7 @@ for epoch in range(num_epochs):
     if avg_val_loss < best_val_loss:
         best_val_loss = avg_val_loss
         torch.save(model.state_dict(), best_model_path)
-        print(f"✅ Nouveau meilleur modèle sauvegardé avec val_loss={avg_val_loss:.4f}")
+        print(f"Nouveau meilleur modèle sauvegardé avec val_loss={avg_val_loss:.4f}")
     
     #création du graphe des pertes en fonction des epochs
     train_loss_history.append(avg_loss)
@@ -428,7 +428,7 @@ for epoch in range(num_epochs):
     plt.legend()
     plt.grid(True)
     plt.tight_layout()
-    plt.savefig("Plot/loss_FCN_LSTM_plot8.png")  # ← Sauvegarde ici
+    plt.savefig("Plot/loss_FCN_LSTM_plot8.png")
     plt.close()
 
     # Sauvegarde des listes de pertes
@@ -437,5 +437,5 @@ for epoch in range(num_epochs):
         "val_loss": val_loss_history
     }, "Plot/loss_history_FCN_LSTM8.pt")
 
-    print("📁 Fichiers 'loss_FCN_LSTM_plot8.png' et 'loss_history_FCN_LSTM8.pt' enregistrés.")
-print("✅ Training completed!")
+    print("Fichiers 'loss_FCN_LSTM_plot8.png' et 'loss_history_FCN_LSTM8.pt' enregistrés.")
+print("Training completed!")
