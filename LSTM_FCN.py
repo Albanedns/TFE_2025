@@ -183,7 +183,6 @@ def augment_trajectory(sequence, gaussien_std=0.1, scale_range=(0.9, 1.1)):
     Returns:
         Tensor: nouvelle séquence augmentée
     """
-    # Supposons que x, y sont les deux premières colonnes
     augmented = sequence.clone()
 
     # Bruit gaussien
