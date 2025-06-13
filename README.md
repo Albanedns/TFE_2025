@@ -6,6 +6,7 @@
 
 **landmark_usage.py** contient le code utilisé pour étudier l'utilisation du landmark (temps durant lequel le phare apparait sur l'écran). 
 
+**view_of_basket.py** contient le code utilisé pour étudier l'effet de la vue initiale du panier et de la distance correcte sur la distance parcourue par le participant lors de l'incoming phase.
 
 
 ## Machine Learning ## 
