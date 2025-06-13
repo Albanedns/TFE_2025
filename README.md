@@ -1,4 +1,5 @@
 **preprocessing.py** contient le code ayant permis de créer le fichier CSV avec les informations sur les participants ainsi que les métriques calculées à partir des fichiers de logs.
+
 **errors.csv** est le résultat généré par preprocessing.py.
 
 ## Analyse Statistique ##
