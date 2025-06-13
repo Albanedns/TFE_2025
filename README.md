@@ -6,7 +6,17 @@
 
 **landmark_usage.py** contient le code utilisé pour étudier l'utilisation du landmark (temps durant lequel le phare apparait sur l'écran). 
 
-**view_of_basket.py** contient le code utilisé pour étudier l'effet de la vue initiale du panier et de la distance correcte sur la distance parcourue par le participant lors de l'incoming phase. Actuellement, le code permet d'étudier l'effet de la distance correcte sur la reponse distance mais il suffit de remplacer dans le code "incoming_distance" par "start_basket_distance" pour étudier l'effet de la vue initiale du panier.
+**view_of_basket.py** contient le code utilisé pour étudier l’effet de la vue initiale du panier et de la distance correcte sur la distance parcourue par le participant lors de la phase incoming.
+Par défaut, le code examine l'effet de la distance correcte sur la variable incoming_distance. Pour analyser l'effet de la vue initiale du panier, il suffit de remplacer "incoming_distance" par "start_basket_distance" dans le script.
+
+**new_metrics.py** ontient le code utilisé pour examiner l'effet de l’âge et du gène APOE sur plusieurs nouvelles métriques calculées :
+- le temps total,
+- le temps de la phase incoming,
+- la vitesse moyenne pendant cette phase,
+- le path length ratio (version 1 et 2),
+- la distance absolue moyenne (version 1 et 2).
+
+Actuellement, le script est configuré pour analyser l'effet de l’âge et de l’APOE sur le path length ratio version 1 dans la condition Pure Path Integration.
 
 
 ## Machine Learning ## 
