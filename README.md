@@ -5,3 +5,5 @@
 **random_forest.py** contient le code utilisé pour appliquer un classificateur Random Forest sur le dataset afin de prédire le statut APOE, avec ou sans biais (en modifiant quelques lignes dans le script).
 
 **LSTM_FCN.py** contient le code utilisé pour entraîner un classificateur LSTM-FCN. Les paramètres du modèle ont été modifiés directement dans le script.
+
+**AutoEncodeur_LSTM.py** contient le code utilisé pour entrainer l'autoencodeur LSTM. Les paramètres du modèle ont été modifiés directement dans le script.
