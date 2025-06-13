@@ -4,7 +4,7 @@
 
 ## Analyse Statistique ##
 
-**mixed_linear.py** contient le code utilisé pour examiner l'effet de l’âge et du gène APOE sur l'erreur de dépot, l'erreur de rotation et l'erreur de distance.
+**linear_mixed.py** contient le code utilisé pour examiner l'effet de l’âge et du gène APOE sur l'erreur de dépot, l'erreur de rotation et l'erreur de distance.
 
 **view_of_basket.py** contient le code utilisé pour étudier l’effet de la vue initiale du panier et de la distance correcte sur la distance parcourue par le participant lors de la phase incoming.
 Par défaut, le code examine l'effet de la distance correcte sur la variable incoming_distance. Pour analyser l'effet de la vue initiale du panier, il suffit de remplacer "incoming_distance" par "start_basket_distance" dans le script.
@@ -21,6 +21,7 @@ Par défaut, le code examine l'effet de la distance correcte sur la variable inc
 
 Actuellement, le script est configuré pour analyser l'effet de l’âge et de l’APOE sur le path length ratio version 1 dans la condition Pure Path Integration.
 
+**/Plot/**  regroupe l’ensemble des figures produites par les scripts linear_mixed.py, view_of_basket.py et new_metrics.py, tels qu’exécutés dans leur version actuelle.
 
 ## Machine Learning ## 
 
