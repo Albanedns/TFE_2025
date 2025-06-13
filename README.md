@@ -4,10 +4,10 @@
 
 ## Analyse Statistique ##
 
-**linear_mixed.py** contient le code utilisé pour examiner l'effet de l’âge et du gène APOE sur l'erreur de dépot, l'erreur de rotation et l'erreur de distance.
+**linear_mixed.py** contient le code utilisé pour examiner l'effet de l’âge et du gène APOE sur l'erreur de dépot, l'erreur de rotation et l'erreur de distance. Actuellement, le script est configuré pour analyser l'effet de l’âge et de l’APOE sur l'erreur de distance dans la condition Pure Path Integration
 
 **view_of_basket.py** contient le code utilisé pour étudier l’effet de la vue initiale du panier et de la distance correcte sur la distance parcourue par le participant lors de la phase incoming.
-Par défaut, le code examine l'effet de la distance correcte sur la variable incoming_distance. Pour analyser l'effet de la vue initiale du panier, il suffit de remplacer "incoming_distance" par "start_basket_distance" dans le script.
+Par défaut, le code examine l'effet de la distance correcte sur la variable incoming_distance dans la condition LPI. Pour analyser l'effet de la vue initiale du panier, il suffit de remplacer "incoming_distance" par "start_basket_distance" dans le script.
 
 **landmark_usage.py** contient le code permettant d’analyser l’utilisation du landmark, c’est-à-dire le temps pendant lequel le phare apparaît à l’écran.
 
